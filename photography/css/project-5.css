@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.full{
+    width: 100%;
+}
+.full-header{
+    background-color: #42bd7c;
+    padding: 40px 0
+}
+.main{
+    width: 1114px;
+    margin: auto;
+}
+.whole-header{
+    width: 100%;
+    display: flex
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+}
+.header-icon{
+    width: 20%;
+    display: flex
+}
+.header-icon-d1,.header-icon-d2,.header-icon-d3{
+    height: 40px;
+    width: 40px;
+    background-color:#ffffff;
+        border-radius: 50%;
+    margin-left: 9px
+
+}
+.header-icon-d2 i{
+    color: #42bd7c;
+    margin: 12px 12px 
+}
+.header-icon-d1 i{
+    color: #42bd7c;
+    margin: 12px 15px
+}
+.header-icon-d3 i{
+    color: #42bd7c;
+    margin: 13px 12px
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 46px 0 0;
+}
+
+
+
+
+
+
+
+
+/* header end */
+
+.banner-full{
+    background: url(../images/banner.jpg) left top no-repeat;
+    background-size: cover;
+    height: 561px;
+    position: relative;
+    z-index: -1
+}
+.banner-cont{
+    position: absolute;
+    top: 174px;
+    left: 278px;
+    z-index: 1
+}
+.banner-cont h2{
+    font-size:34px ;
+    font-weight:700 ;
+    color:#525252 ;
+     font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.banner-cont p{
+    font-size:16px ;
+    font-weight:400 ;
+    color:#525252 ;
+     font-family: 'Open Sans', sans-serif;
+    width: 509px;
+    padding: 39px 0 0 0;
+    
+}
+
+.banner-button{
+   display: flex;
+    padding: 40px 0 0 0;
+}
+
+
+.banner-button button{
+    font-weight: 600;
+    font-size:16px ;
+    font-family: 'Open Sans', sans-serif;
+    border-style: none;
+    background-color: transparent;
+    border:2px solid #767674;
+    padding: 20px 40px;
+    margin:0 20px 0 0;
+        color: #525252;
+    
+}
+.banner-button button i{
+    font-size: 20px;
+    margin: 0 20px 0 0;
+        color: #525252;
+}
+.banner-main{
+   display: flex
+}
+.banner-main-d1,.banner-main-d2,.banner-main-d3,.banner-main-d4{
+    width: 20%;
+     margin-left: 100px;
+     padding: 25px 0;
+}
+
+
+.banner-botttom{
+    background-color:#f3f3f3;
+
+   
+}
+
+/* banner bottom end*/
+.capture-main{
+    display: flex;
+    padding: 101px 0 0 0;
+}
+.capture-left{
+    width: 45%;
+}
+.capture-right{
+    width: 50%;
+}
+.capture-right-d1 h2{
+    font-size:34px;
+    font-weight:700 ;
+    color:#525151 ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.capture-right-d1 p{
+    font-size:16px;
+    font-weight:400 ;
+    color:#525151 ;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+      
+}
+
+.capture-location{
+    display: flex;
+   margin-top: 30px;
+}
+.capture-location i{
+    font-size: 22px;
+    color:#808082; 
+ 
+}
+.capture-location img{
+    width: 22px
+   
+ 
+}
+.capture-location p{
+    font-size:16px;
+    font-weight:600 ;
+    color:#525151 ;
+    font-family: 'Open Sans', sans-serif;
+       margin-left: 10px
+    
+}
+.capture-right-d2{
+    display: flex;
+    margin-top: 60px;
+}
+
+
+
+.capture-right-d2 button{
+  font-size:16px;
+    font-weight:600 ;
+    color:#525151 ;
+    font-family: 'Open Sans', sans-serif;
+    border-style: none;
+    border: 2px solid #525151;
+    padding: 20px 40px;
+    background-color: transparent;
+
+    
+}
+
+.capture-right-d2 button i{
+    margin: 0px 20px;
+}
+
+.capture-right-d2 p{
+    font-size:16px;
+    font-weight:400 ;
+    color:#525151 ;
+    font-family: 'Open Sans', sans-serif;
+        padding: 20px 40px;
+}
+/* capture end*/
+.fames-full{
+    background-color: #43ba7b;
+    padding: 100px 0
+}
+.fames-content-top{
+    display: flex
+}
+
+.fames-content-top-d1{
+    width: 32%;
+    text-align: center
+}
+
+.fames-content-top-d1 img{
+   width: 25px;
+    margin-bottom: 45px
+}
+
+.fames-content-top-d1 h4{
+    font-size:20px;
+    font-weight:600 ;
+    color:#ffffff ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fames-content-top-d1 p{
+    margin-top: 28px;
+    font-size:16px;
+    font-weight:400 ;
+    color:#ffffff ;
+    font-family: 'Open Sans', sans-serif;
+}
+.fames-content-bottom{
+    display: flex;
+    margin-top: 80px
+}
+/*fame end*/
+.inti-full{
+    padding: 100px 0 80px 0;
+       background-color: #faf9f9;
+}
+.int-content-top{
+    text-align: center;
+    width: 83%;
+    margin: auto;
+    
+}
+.int-content-top p{
+  font-size:18px;
+    font-weight:400 ;
+    color:#767272 ;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.int-content-bottom{
+    padding: 50px 0;
+}
+.int-content-bottom h5{
+  font-size:16px;
+    font-weight:600 ;
+    color:#767272 ;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.int-content-bottom p{
+  font-size:14px;
+    font-weight:400;
+    color:#767272 ;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.int-content-bottom-icon{
+    display: flex;
+padding: 40px 0;
+     width: 12%;
+    margin: auto;
+    
+}
+.int-content-bottom-icon i{
+     color:#767272 ;
+    font-size: 28px;
+        margin: 0px 38px 0 7px;
+}
+
+/* inti end*/
+.join-full{
+    padding: 100px 0;
+    background-color:  #43ba7b;
+}
+.join-content{
+    text-align: center;
+     
+}
+.join-content h4{
+     font-size:20px;
+    font-weight:400;
+    color:#ffffff ;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.join-content-input{
+  position: relative;
+        color:#43ba7b;
+}
+.join-content-input input{
+    font-size:14px;
+    font-weight:400;
+
+    border-style: none;
+    margin-top: 45px;
+    padding: 13px 100px 13px 21px;
+   
+   
+    
+    
+}
+::placeholder{
+    color: #43ba7b;
+     text-align: left
+}
+
+.join-content-input i{
+ color: #43ba7b;
+    position: absolute;
+    top: 68%;
+    left: 60%;
+   
+}
+
+/*join end*/
+
+.footer-full{
+    padding: 100px 0;
+    background-color: #faf9f9;
+}
+.footer-cont-top{
+    display: flex;
+    width: 25%
+        ;
+    margin: auto
+}
+.footer-cont-top i{
+   font-size: 50px;
+    color: #dddddd;
+        margin: 0px 24px;
+}
+.footer-cont-bottom p{
+     font-size:12px;
+    font-weight:600;
+    color:#767272 ;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-cont-bottom{
+    text-align: center;
+    margin-top: 50px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
